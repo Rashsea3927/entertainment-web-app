@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className='sticky z-10 top-0 left-0 xs:mx-6 xs:top-6 lg:h-screen lg:top-0 lg:mr-0 lg:ml-[auto]'>
+    <header className='sticky z-10 top-0 left-0 xs:mx-6 xs:mt-6 lg:h-screen lg:mt-0 lg:mr-0 lg:ml-[auto]'>
       <div className='p-4 grid grid-cols-[auto_1fr_auto] items-center bg-(--semi-dark-blue) xs:rounded-xl lg:grid-cols-1 lg:justify-center lg:items-start lg:h-[calc(100%-4rem)] lg:mt-8 lg:pt-9 lg:pb-8 lg:px-7'>
         <h1 className='lg:justify-self-center'>
           <Link href='/'>

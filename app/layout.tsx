@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${outfit.variable} antialiased`}>
-        <div className='relative lg:max-w-[1372px] lg:mx-auto lg:grid lg:grid-cols-[auto_1fr] lg:gap-6'>
+        <div className='relative lg:max-w-[1372px] lg:w-[96%] lg:mx-auto lg:grid lg:grid-cols-[auto_1fr] lg:gap-9'>
           <Header />
           {children}
         </div>
